@@ -297,7 +297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129561482}
   m_Layer: 0
-  m_Name: Point1 (3)
+  m_Name: Point4
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2650,10 +2650,9 @@ MonoBehaviour:
   - {fileID: 1621766255}
   - {fileID: 1452984763}
   - {fileID: 129561482}
-  _patrolAreaSize: {x: 22, y: 19.7}
-  _patrolAreaCenter: {fileID: 2058602964}
-  _visionRange: 15
-  _visionAngle: 120
+  _visionRange: 40.1
+  _visionAngle: 360
+  _waitTime: 5
 --- !u!136 &603713092
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9048,7 +9047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452984763}
   m_Layer: 0
-  m_Name: Point1 (2)
+  m_Name: Point3
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9063,7 +9062,7 @@ Transform:
   m_GameObject: {fileID: 1452984762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.26, y: 1.79, z: -6.14}
+  m_LocalPosition: {x: 8.74, y: 4.62, z: -8.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9079,7 +9078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621766255}
   m_Layer: 0
-  m_Name: Point1 (1)
+  m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9094,7 +9093,7 @@ Transform:
   m_GameObject: {fileID: 1621766254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36, y: 1.79, z: -1}
+  m_LocalPosition: {x: 2.77, y: 1.79, z: -0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11818,7 +11817,7 @@ Transform:
   m_GameObject: {fileID: 1671396608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.9, y: 1.79, z: -1}
+  m_LocalPosition: {x: -5.68, y: 1.79, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11906,8 +11905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_StartPoint: {x: -1.0888586, y: -9.742892, z: -3.0157976}
-  m_EndPoint: {x: 3.0374079, y: -6.172631, z: -3.6693945}
+  m_StartPoint: {x: 0.01848507, y: -9.742892, z: -3.8597898}
+  m_EndPoint: {x: 2.4896965, y: -6.2857513, z: -3.6693945}
   m_Width: 5.5
   m_CostModifier: -1
   m_Bidirectional: 1
@@ -11922,7 +11921,7 @@ Transform:
   m_GameObject: {fileID: 1789545096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.19, y: 10.13, z: 12.31}
+  m_LocalPosition: {x: 15.52, y: 10.13, z: 12.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
